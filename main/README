@@ -1,0 +1,21 @@
+If you want to create a new project, look for a similar project from where you can start. You should then create a new branch either in a folder under experiments, or directly under bin.
+
+project branches from Christian:
+mammo - mammography project files
+age_estimation - age estimation files - probably not working anymore
+localization - heatmap regression files
+instance_segmentation - instance segmentation files, needs cleanup
+verse - vertebrae localization and segmentation project files
+semantic_segmentation - various semantic segmentation files: chaos, decathlon, heart_video, ilearnheart, ivd_segmentation, lbi_heart, lung_xray
+mmwhs - multi-label whole heart segmentation files
+other_experiments - cell classification, probability_inference
+
+project branches from Franz:
+ct_reconstruction - computed tomography reconstruction from radiography-like projection images - based on tf1
+synthetic_uncertainty - uncertainty estimation from an arbitrary regression function
+uncertainty_estimation - uncertainty estimation in the multi-factorial age estimation setting (originally Stefan's project)
+continual_learning - continual learning experiments - based on tf1
+active_learning - initial setup by Franz (Johannes' project)
+mandms_challenge - basic domain generalization experiments for the Multi-Centre, Multi-Vendor & Multi-Disease Cardiac Image Segmentation Challenge (M&Ms) at MICCAI 2020
+domain_generalization - domain generalization of multiple MR and CT datasets - brats, ilearnheart, mmwhs, ...
+chexpert - uncertainty estimation on the chexpert dataset - uncontinued at some point, probably needs some work - based on tf1
